@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated research paper."
+type: software
+title: "PQC Migration in Smart HVAC Systems"
+authors:
+  - family-names: Moon
+    given-names: "Mahedee Zaman"
+  - family-names: Apurba
+    given-names: "Kaysarul Anas"
+  - family-names: Hasan
+    given-names: "Md Hasibul"
+  - family-names: Inomata
+    given-names: Atsuo
+  - family-names: Rahman
+    given-names: "Sk Md Mizanur"
+repository-code: "https://github.com/mahedeezaman/pqc-smart-hvac-migration"
+license: MIT
