@@ -137,3 +137,18 @@ For comparable results, use consistent hardware, operating-system configuration,
 Network latency experiments use simulated delays rather than measurements from a physical network. Energy consumption is estimated using the configured CPU power model rather than direct external power measurements.
 
 The included JSON and CSV files preserve the experimental results reported in the study.
+
+## Copyright and License
+
+Copyright (c) 2026 Mahedee Zaman Moon.
+
+This project is licensed under the MIT License. You are free to use, modify, distribute, and commercially use this software, subject to the terms and conditions of the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Academic Citation
+
+If you use this implementation in academic research, please cite the associated research paper:
+
+Mahedee Zaman Moon, Kaysarul Anas Apurba, Md Hasibul Hasan, Atsuo Inomata, and Sk Md Mizanur Rahman, "A Non-Invasive Cloud-Based Migration Strategy for Post-Quantum Cybersecurity in Smart HVAC Systems: Architecture, Implementation, and Empirical Evaluation."
+
+Please cite the published version when available.
+
