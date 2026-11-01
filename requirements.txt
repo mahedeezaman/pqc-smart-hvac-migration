@@ -1,0 +1,12 @@
+# Cryptographic operations
+cryptography
+liboqs-python
+
+# System monitoring and resource measurement
+psutil
+
+# Numerical computation and data analysis
+numpy
+
+# Data visualization
+matplotlib
