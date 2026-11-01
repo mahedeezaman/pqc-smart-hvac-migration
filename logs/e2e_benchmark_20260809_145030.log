@@ -1,0 +1,18 @@
+2026-08-09 14:50:30,283 [INFO] e2e_benchmark: =======================================================
+2026-08-09 14:50:30,284 [INFO] e2e_benchmark:   E2E_BENCHMARK
+2026-08-09 14:50:30,284 [INFO] e2e_benchmark: =======================================================
+2026-08-09 14:50:30,285 [INFO] e2e_benchmark: Temperature: 42.842°C ✓
+2026-08-09 14:50:30,285 [INFO] e2e_benchmark: ECDH handshake (baseline)...
+2026-08-09 14:50:30,530 [INFO] e2e_benchmark:   20/100
+2026-08-09 14:50:30,765 [INFO] e2e_benchmark:   40/100
+2026-08-09 14:50:30,999 [INFO] e2e_benchmark:   60/100
+2026-08-09 14:50:31,234 [INFO] e2e_benchmark:   80/100
+2026-08-09 14:50:31,468 [INFO] e2e_benchmark:   100/100
+2026-08-09 14:50:31,470 [INFO] e2e_benchmark: PQC handshake (ML-KEM-768 + ML-DSA-65)...
+2026-08-09 14:50:31,717 [INFO] e2e_benchmark:   20/100
+2026-08-09 14:50:31,955 [INFO] e2e_benchmark:   40/100
+2026-08-09 14:50:32,191 [INFO] e2e_benchmark:   60/100
+2026-08-09 14:50:32,431 [INFO] e2e_benchmark:   80/100
+2026-08-09 14:50:32,669 [INFO] e2e_benchmark:   100/100
+2026-08-09 14:50:32,673 [INFO] e2e_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/e2e_benchmarks.json
+2026-08-09 14:50:32,674 [INFO] e2e_benchmark: Completed in 2.4s

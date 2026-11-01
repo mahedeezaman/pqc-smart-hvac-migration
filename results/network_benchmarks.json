@@ -1,0 +1,62 @@
+{
+  "system_info": {
+    "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+    "processor": "",
+    "python": "3.13.5",
+    "timestamp": "2026-08-10T21:21:31.662974",
+    "cpu_freq_mhz": 1800.0,
+    "cpu_temp_c": 41.381
+  },
+  "results": {
+    "rtt_0ms": {
+      "network_rtt_ms": 0,
+      "mean_ms": 2.87,
+      "std_ms": 0.8055,
+      "min_ms": 1.6086,
+      "max_ms": 5.8003,
+      "p95_ms": 4.3403,
+      "n_samples": 500,
+      "energy_mj": 1.721997
+    },
+    "rtt_20ms": {
+      "network_rtt_ms": 20,
+      "mean_ms": 43.5166,
+      "std_ms": 0.6699,
+      "min_ms": 42.1787,
+      "max_ms": 45.6987,
+      "p95_ms": 44.6546,
+      "n_samples": 500,
+      "energy_mj": 26.109944
+    },
+    "rtt_50ms": {
+      "network_rtt_ms": 50,
+      "mean_ms": 103.5985,
+      "std_ms": 0.5875,
+      "min_ms": 102.5103,
+      "max_ms": 106.3431,
+      "p95_ms": 104.5876,
+      "n_samples": 500,
+      "energy_mj": 62.159098
+    },
+    "rtt_100ms": {
+      "network_rtt_ms": 100,
+      "mean_ms": 203.6283,
+      "std_ms": 0.7714,
+      "min_ms": 202.665,
+      "max_ms": 206.5859,
+      "p95_ms": 204.9894,
+      "n_samples": 500,
+      "energy_mj": 122.177007
+    },
+    "rtt_250ms": {
+      "network_rtt_ms": 250,
+      "mean_ms": 503.7054,
+      "std_ms": 0.5439,
+      "min_ms": 502.8088,
+      "max_ms": 506.9516,
+      "p95_ms": 504.7037,
+      "n_samples": 500,
+      "energy_mj": 302.223219
+    }
+  }
+}

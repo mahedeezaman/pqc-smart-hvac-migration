@@ -1,0 +1,34 @@
+2026-08-09 16:08:35,665 [INFO] network_benchmark: =======================================================
+2026-08-09 16:08:35,665 [INFO] network_benchmark:   NETWORK_BENCHMARK
+2026-08-09 16:08:35,665 [INFO] network_benchmark: =======================================================
+2026-08-09 16:08:35,665 [INFO] network_benchmark: Temperature: 38.946°C ✓
+2026-08-09 16:08:35,665 [INFO] network_benchmark: 
+RTT: 0 ms
+2026-08-09 16:08:35,926 [INFO] network_benchmark:   RTT=0ms: 20/100
+2026-08-09 16:08:36,177 [INFO] network_benchmark:   RTT=0ms: 40/100
+2026-08-09 16:08:36,425 [INFO] network_benchmark:   RTT=0ms: 60/100
+2026-08-09 16:08:36,675 [INFO] network_benchmark:   RTT=0ms: 80/100
+2026-08-09 16:08:36,921 [INFO] network_benchmark:   RTT=0ms: 100/100
+2026-08-09 16:08:36,922 [INFO] network_benchmark: 
+RTT: 10 ms
+2026-08-09 16:08:37,687 [INFO] network_benchmark:   RTT=10ms: 20/100
+2026-08-09 16:08:38,339 [INFO] network_benchmark:   RTT=10ms: 40/100
+2026-08-09 16:08:38,988 [INFO] network_benchmark:   RTT=10ms: 60/100
+2026-08-09 16:08:39,641 [INFO] network_benchmark:   RTT=10ms: 80/100
+2026-08-09 16:08:40,292 [INFO] network_benchmark:   RTT=10ms: 100/100
+2026-08-09 16:08:40,293 [INFO] network_benchmark: 
+RTT: 20 ms
+2026-08-09 16:08:41,559 [INFO] network_benchmark:   RTT=20ms: 20/100
+2026-08-09 16:08:42,604 [INFO] network_benchmark:   RTT=20ms: 40/100
+2026-08-09 16:08:43,656 [INFO] network_benchmark:   RTT=20ms: 60/100
+2026-08-09 16:08:44,704 [INFO] network_benchmark:   RTT=20ms: 80/100
+2026-08-09 16:08:45,756 [INFO] network_benchmark:   RTT=20ms: 100/100
+2026-08-09 16:08:45,757 [INFO] network_benchmark: 
+RTT: 50 ms
+2026-08-09 16:08:48,521 [INFO] network_benchmark:   RTT=50ms: 20/100
+2026-08-09 16:08:50,774 [INFO] network_benchmark:   RTT=50ms: 40/100
+2026-08-09 16:08:53,027 [INFO] network_benchmark:   RTT=50ms: 60/100
+2026-08-09 16:08:55,278 [INFO] network_benchmark:   RTT=50ms: 80/100
+2026-08-09 16:08:57,529 [INFO] network_benchmark:   RTT=50ms: 100/100
+2026-08-09 16:08:57,531 [INFO] network_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/network_benchmarks.json
+2026-08-09 16:08:57,531 [INFO] network_benchmark: Completed in 21.9s

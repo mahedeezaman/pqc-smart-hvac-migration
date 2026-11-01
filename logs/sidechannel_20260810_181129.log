@@ -1,0 +1,18 @@
+2026-08-10 18:11:29,396 [INFO] sidechannel: ============================================================
+2026-08-10 18:11:29,397 [INFO] sidechannel: SIDE-CHANNEL ANALYSIS
+2026-08-10 18:11:29,397 [INFO] sidechannel: ============================================================
+2026-08-10 18:11:29,397 [INFO] sidechannel: TEST 1: Memory forensics (in-place zeroization check)
+2026-08-10 18:11:29,452 [INFO] sidechannel:   Method: direct_address | Nonzero bytes remaining: False | PASS
+2026-08-10 18:11:29,453 [INFO] sidechannel: TEST 2: MITM simulation (clean isolation)
+2026-08-10 18:11:29,457 [INFO] sidechannel:   Attacker obtained shared secret: True | Victim blocked forged completion: True (ValueError)
+2026-08-10 18:11:29,457 [INFO] sidechannel: TEST 3: Nonce collision — 10000 nonces
+2026-08-10 18:11:29,473 [INFO] sidechannel:   10000/10000 unique | P(collision)=6.310e-22
+2026-08-10 18:11:29,475 [INFO] sidechannel: TEST 4: Timing CV%% relative to AES-256-GCM baseline — 3000 samples, architecture path (PQCProxy.decapsulate)
+2026-08-10 18:11:45,235 [INFO] sidechannel:   AES-256-GCM baseline: mean=0.1319ms, CV=84.57%
+2026-08-10 18:12:07,513 [INFO] sidechannel:   PQCProxy.decapsulate(): mean=1.2331ms, CV=46.95% (-37.62pp vs baseline)
+2026-08-10 18:12:07,513 [INFO] sidechannel: TEST 5: TVLA fixed-vs-random (architecture path, pre-generated) — 5000 samples per group
+2026-08-10 18:12:16,923 [INFO] sidechannel:   5000/10000
+2026-08-10 18:12:22,525 [INFO] sidechannel:   10000/10000
+2026-08-10 18:12:22,558 [INFO] sidechannel:   t-statistic = -0.047 | PASS
+2026-08-10 18:12:22,589 [INFO] sidechannel: 
+4/4 pass/fail tests passed. (timing_baseline_relative is descriptive, reported separately.)

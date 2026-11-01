@@ -1,0 +1,11 @@
+2026-08-09 14:51:01,947 [INFO] plots: Generating all plots...
+2026-08-09 14:51:03,663 [INFO] plots:   ✔ latency_comparison.png
+2026-08-09 14:51:05,152 [INFO] plots:   ✔ energy_comparison.png
+2026-08-09 14:51:05,982 [INFO] plots:   ✔ handshake_comparison.png
+2026-08-09 14:51:06,931 [INFO] plots:   ✔ network_impact.png
+2026-08-09 14:51:08,063 [INFO] plots:   ✔ sidechannel_timing.png
+2026-08-09 14:51:09,231 [INFO] plots:   ✔ esp32_memory.png
+2026-08-09 14:51:10,896 [INFO] plots:   ✔ stress_concurrent.png
+2026-08-09 14:51:11,618 [INFO] plots:   ✔ stress_memory.png
+2026-08-09 14:51:12,608 [INFO] plots:   ✔ stress_extrapolation.png
+2026-08-09 14:51:12,608 [INFO] plots: All plots saved to: /home/kobiraj/Desktop/pqc_benchmark/plots

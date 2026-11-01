@@ -1,0 +1,13 @@
+{
+  "platform": "ESP32-S3",
+  "cpu_mhz": 240,
+  "sram_bytes": 388704,
+  "psram_bytes": 0,
+  "free_heap_bytes": 347424,
+  "mlkem768_required_bytes": 921600,
+  "mlkem768_feasible": false,
+  "malloc_900kb_succeeded": false,
+  "max_single_alloc_bytes": 276480,
+  "aes128_mean_ms": 0.0320,
+  "ecdh_keygen_mean_ms": 111.9270
+}

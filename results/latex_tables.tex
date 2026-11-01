@@ -1,0 +1,172 @@
+% TABLE 1: Operation Latency and Energy
+\begin{table}[t]\centering
+\caption{Mean operation latency (ms) and estimated energy (mJ) on
+Raspberry Pi~4B. Values: mean~$\pm$~std (500 runs, 50 warm-up, CPU at 1800~MHz).}
+\label{tab:latency}
+\begin{tabular}{llrrrr}
+\hline
+Config & Op & Mean (ms) & Std & P95 & Energy (mJ) \\
+\hline
+ECDH-X25519 $+$ Ed25519 & keygen & 0.3300 & 0.0865 & 0.5618 & 0.198015 \\
+ & exchange & 0.5950 & 0.0929 & 0.8219 & 0.356998 \\
+ & sign & 0.2835 & 0.0679 & 0.4620 & 0.170113 \\
+ & verify & 0.4434 & 0.0735 & 0.6371 & 0.26603 \\
+\hline
+ML-KEM-512 $+$ ML-DSA-44 & keygen & 0.4631 & 0.1553 & 0.8474 & 0.277844 \\
+ & encap & 0.4535 & 0.1423 & 0.8202 & 0.272124 \\
+ & decap & 0.3439 & 0.1016 & 0.5677 & 0.206337 \\
+ & sign & 0.9514 & 0.3274 & 1.6232 & 0.570867 \\
+ & verify & 0.6459 & 0.1742 & 1.0841 & 0.387514 \\
+\hline
+ML-KEM-768 $+$ ML-DSA-65 & keygen & 0.5292 & 0.2067 & 1.0676 & 0.317532 \\
+ & encap & 0.4812 & 0.1339 & 0.7783 & 0.288708 \\
+ & decap & 0.3716 & 0.0973 & 0.5963 & 0.22296 \\
+ & sign & 1.2209 & 0.4252 & 2.0718 & 0.732533 \\
+ & verify & 0.7575 & 0.1780 & 1.1660 & 0.454518 \\
+\hline
+ML-KEM-1024 $+$ ML-DSA-87 & keygen & 0.5471 & 0.1826 & 1.0203 & 0.328275 \\
+ & encap & 0.4704 & 0.1534 & 0.7862 & 0.282215 \\
+ & decap & 0.4301 & 0.1228 & 0.7916 & 0.258054 \\
+ & sign & 1.4802 & 0.4760 & 2.3613 & 0.888105 \\
+ & verify & 0.9586 & 0.1989 & 1.4738 & 0.575136 \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 2: Artifact Sizes
+\begin{table}[t]\centering
+\caption{Public key, ciphertext, shared secret, and signature sizes (bytes).}
+\label{tab:sizes}
+\begin{tabular}{lrrrr}
+\hline
+Config & PK (B) & CT (B) & SS (B) & Sig (B) \\
+\hline
+ML-KEM-512 $+$ ML-DSA-44 & 800 & 768 & 32 & 2420 \\
+ML-KEM-768 $+$ ML-DSA-65 & 1184 & 1088 & 32 & 3309 \\
+ML-KEM-1024 $+$ ML-DSA-87 & 1568 & 1568 & 32 & 4627 \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 3: End-to-End Handshake
+\begin{table}[t]\centering
+\caption{Post-quantum handshake latency (Steps~1--6) and command round-trip (500 runs, long-term DSA keypair persists across sessions).}
+\label{tab:e2e}
+\begin{tabular}{llrrrr}
+\hline
+Config & Phase & Mean (ms) & Std & P95 & Energy (mJ) \\
+\hline
+ECDH baseline & Handshake (Steps~1--6) & 2.0987 & 0.4578 & 2.9963 & 1.259242 \\
+ & Cmd encrypt & 0.0790 & 0.0286 & 0.1334 & 0.047379 \\
+ & Cmd decrypt & 0.0369 & 0.0076 & 0.0496 & 0.022154 \\
+\hline
+ML-KEM-768 proxy & Handshake (Steps~1--6) & 2.4765 & 0.7659 & 3.9971 & 1.485922 \\
+ & Cmd encrypt & 0.0909 & 0.0398 & 0.1803 & 0.054524 \\
+ & Cmd decrypt & 0.0427 & 0.0160 & 0.0703 & 0.025628 \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 4: Network Latency Impact
+\begin{table}[t]\centering
+\caption{ML-KEM-768 handshake latency under simulated network RTT (500 runs each, 4 one-way hops simulated).}
+\label{tab:network}
+\begin{tabular}{rrrr}
+\hline
+RTT (ms) & Mean (ms) & P95 (ms) & Energy (mJ) \\
+\hline
+0 & 2.870 & 4.340 & 1.721997 \\
+20 & 43.517 & 44.655 & 26.109944 \\
+50 & 103.599 & 104.588 & 62.159098 \\
+100 & 203.628 & 204.989 & 122.177007 \\
+250 & 503.705 & 504.704 & 302.223219 \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 5: Side-Channel Analysis
+\begin{table}[t]\centering
+\caption{Side-channel analysis results. Memory forensics, MITM simulation, nonce collision, and TVLA are pass/fail tests against documented methodologies; the timing/AES-GCM baseline comparison in Table~\ref{tab:cvbaseline} is descriptive, not pass/fail.}
+\label{tab:sidechannel}
+\begin{tabular}{lll}
+\hline
+Test & Key Result & Status \\
+\hline
+Memory Forensics & Not found (zeroized) & $\checkmark$ \\
+MITM Attack Simulation & ML-DSA raised ValueError & $\checkmark$ \\
+Nonce Collision Test & 10000/10000 unique, $P=6.310e-22$ & $\checkmark$ \\
+TVLA Fixed-vs-Random (PQCProxy.decapsul... & $t=-0.268$ (thresh $\pm4.5$) & $\checkmark$ \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 5b: Timing CV Relative to AES-256-GCM Baseline
+\begin{table}[t]\centering
+\caption{Timing variability (coefficient of variation) of the architecture's decapsulation path relative to an AES-256-GCM baseline measured in the same run (5000 samples each). Descriptive noise-floor comparison, not a pass/fail test; see Table~\ref{tab:sidechannel} for the TVLA leakage assessment on this same path.}
+\label{tab:cvbaseline}
+\begin{tabular}{lrr}
+\hline
+Operation & Mean (ms) & CV (\%) \\
+\hline
+AES-256-GCM (baseline) & 0.1377 & 80.68 \\
+PQCProxy.decapsulate() & 1.2326 & 38.8 \\
+\hline
+\multicolumn{3}{l}{Difference: -41.88 percentage points vs.\ baseline.} \\
+\end{tabular}\end{table}
+
+% TABLE 6: ESP32-S3 Memory Infeasibility and Classical Crypto Timing
+\begin{table}[t]\centering
+\caption{ESP32-S3 memory feasibility for ML-KEM-768 and classical cryptography timing. The device successfully runs AES-128 and ECDH (classical), but cannot allocate the memory required for ML-KEM-768 (post-quantum), empirically confirming the device-side infeasibility claim of the proposed architecture.}
+\label{tab:esp32}
+\begin{tabular}{lr}
+\hline
+Metric & Value \\
+\hline
+\multicolumn{2}{l}{\textit{Hardware}} \\
+\hline
+Platform & ESP32-S3 \\
+CPU frequency & 240~MHz \\
+Total SRAM & 388704~bytes \\
+Free heap (runtime) & 347424~bytes (339~KB) \\
+\hline
+\multicolumn{2}{l}{\textit{Classical Cryptography (device capable)} } \\
+\hline
+AES-128 encrypt & 0.0320~ms \\
+ECDH-P256 keygen & 111.9270~ms \\
+\hline
+\multicolumn{2}{l}{\textit{Post-Quantum Cryptography (device incapable)} } \\
+\hline
+ML-KEM-768 memory required & 921600~bytes (900~KB) \\
+malloc(900~KB) result & \textbf{FAILED} \\
+ML-KEM-768 feasible & \textbf{No} \\
+\hline
+\end{tabular}\end{table}
+
+% TABLE 7: Stress Test — Concurrent Sessions
+\begin{table}[t]\centering
+\caption{ML-KEM-768 proxy performance under concurrent load (Raspberry Pi~4B).}
+\label{tab:stress}
+\begin{tabular}{rrrrr}
+\hline
+Threads & Success (\%) & Mean lat. (ms) & Max lat. (ms) & Sessions/s \\
+\hline
+1 & 100.0 & 4.07 & 4.07 & 160.7 \\
+2 & 100.0 & 3.34 & 3.43 & 473.6 \\
+4 & 100.0 & 3.06 & 3.45 & 887.9 \\
+8 & 100.0 & 7.41 & 10.32 & 358.2 \\
+16 & 100.0 & 10.55 & 17.35 & 444.5 \\
+32 & 100.0 & 13.92 & 23.87 & 303.6 \\
+\hline
+\multicolumn{5}{l}{Sequential throughput: 443.3 sessions/s over 500 sessions. Memory growth: 60.0~KB (no leak).} \\
+\end{tabular}\end{table}
+
+% TABLE 8: Cloud Throughput Extrapolation
+\begin{table}[t]\centering
+\caption{Extrapolated ML-KEM-768 proxy throughput for deployment scenarios. Based on measured Pi~4B performance, assuming linear per-core scaling.}
+\label{tab:extrapolation}
+\begin{tabular}{lr}
+\hline
+Deployment Scenario & Sessions / Second \\
+\hline
+Raspberry Pi~4B (1 core) & 110.8 \\
+Raspberry Pi~4B (4 cores) & 443.3 \\
+Cloud instance (8 cores) & 886.6 \\
+Cloud instance (32 cores) & 3546.4 \\
+\hline
+\multicolumn{2}{l}{Linear scaling assumed. Actual cloud throughput depends on network I/O and load balancing.} \\
+\end{tabular}\end{table}

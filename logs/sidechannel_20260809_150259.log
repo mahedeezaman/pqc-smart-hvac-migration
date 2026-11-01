@@ -1,0 +1,32 @@
+2026-08-09 15:02:59,035 [INFO] sidechannel: ============================================================
+2026-08-09 15:02:59,035 [INFO] sidechannel: SIDE-CHANNEL ANALYSIS
+2026-08-09 15:02:59,035 [INFO] sidechannel: ============================================================
+2026-08-09 15:02:59,036 [INFO] sidechannel: TEST 1: Decapsulation timing attack simulation — 1000 samples
+2026-08-09 15:02:59,110 [INFO] sidechannel:   200/1000
+2026-08-09 15:02:59,179 [INFO] sidechannel:   400/1000
+2026-08-09 15:02:59,249 [INFO] sidechannel:   600/1000
+2026-08-09 15:02:59,318 [INFO] sidechannel:   800/1000
+2026-08-09 15:02:59,387 [INFO] sidechannel:   1000/1000
+2026-08-09 15:02:59,393 [INFO] sidechannel:   PASS: Pearson |r| = 0.018022
+2026-08-09 15:02:59,394 [INFO] sidechannel: TEST 2: Memory forensics (in-place zeroization check)
+2026-08-09 15:02:59,419 [INFO] sidechannel:   Method: direct_address | Nonzero bytes remaining: True | FAIL
+2026-08-09 15:02:59,420 [INFO] sidechannel: TEST 3: MITM simulation (clean isolation)
+2026-08-09 15:02:59,423 [INFO] sidechannel:   Attacker obtained shared secret: True | Victim blocked forged completion: True (ValueError)
+2026-08-09 15:02:59,423 [INFO] sidechannel: TEST 4: Nonce collision — 10000 nonces
+2026-08-09 15:02:59,436 [INFO] sidechannel:   10000/10000 unique | P(collision)=6.310e-22
+2026-08-09 15:02:59,439 [INFO] sidechannel: TEST 5: Timing consistency across variants — 200 samples each
+2026-08-09 15:03:00,489 [INFO] sidechannel:   ML-KEM-512: KeyGen CV=41.39%, Encap CV=50.5%
+2026-08-09 15:03:01,548 [INFO] sidechannel:   ML-KEM-768: KeyGen CV=16.37%, Encap CV=3.87%
+2026-08-09 15:03:02,620 [INFO] sidechannel:   ML-KEM-1024: KeyGen CV=15.45%, Encap CV=3.35%
+2026-08-09 15:03:02,620 [INFO] sidechannel: TEST 6: TVLA fixed-vs-random — 2000 samples per group
+2026-08-09 15:03:02,733 [INFO] sidechannel:   500/4000
+2026-08-09 15:03:02,843 [INFO] sidechannel:   1000/4000
+2026-08-09 15:03:02,953 [INFO] sidechannel:   1500/4000
+2026-08-09 15:03:03,064 [INFO] sidechannel:   2000/4000
+2026-08-09 15:03:03,174 [INFO] sidechannel:   2500/4000
+2026-08-09 15:03:03,285 [INFO] sidechannel:   3000/4000
+2026-08-09 15:03:03,395 [INFO] sidechannel:   3500/4000
+2026-08-09 15:03:03,505 [INFO] sidechannel:   4000/4000
+2026-08-09 15:03:03,520 [INFO] sidechannel:   t-statistic = 24.617 | LEAK DETECTED
+2026-08-09 15:03:03,521 [INFO] sidechannel: 
+3/6 tests passed.

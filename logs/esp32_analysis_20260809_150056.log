@@ -1,0 +1,7 @@
+2026-08-09 15:00:56,573 [INFO] esp32_analysis: ESP32-S3 Infeasibility Check
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   Free heap      : 339.3 KB
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   ML-KEM-768     : 900.0 KB required
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   malloc(900KB)  : FAILED
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   Infeasibility  : confirmed
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   AES-128 mean   : 0.0320 ms (device CAN do this)
+2026-08-09 15:00:56,574 [INFO] esp32_analysis:   ECDH keygen    : 111.9270 ms (device CAN do this)

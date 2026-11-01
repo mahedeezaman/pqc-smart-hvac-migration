@@ -1,0 +1,141 @@
+2026-08-09 19:27:43,867 [INFO] network_benchmark: =======================================================
+2026-08-09 19:27:43,867 [INFO] network_benchmark:   NETWORK_BENCHMARK
+2026-08-09 19:27:43,867 [INFO] network_benchmark: =======================================================
+2026-08-09 19:27:43,868 [INFO] network_benchmark: Temperature: 43.816°C ✓
+2026-08-09 19:27:43,868 [INFO] network_benchmark: 
+RTT: 0 ms
+2026-08-09 19:27:44,257 [INFO] network_benchmark:   RTT=0ms: 20/500
+2026-08-09 19:27:44,539 [INFO] network_benchmark:   RTT=0ms: 40/500
+2026-08-09 19:27:44,811 [INFO] network_benchmark:   RTT=0ms: 60/500
+2026-08-09 19:27:45,067 [INFO] network_benchmark:   RTT=0ms: 80/500
+2026-08-09 19:27:45,347 [INFO] network_benchmark:   RTT=0ms: 100/500
+2026-08-09 19:27:45,625 [INFO] network_benchmark:   RTT=0ms: 120/500
+2026-08-09 19:27:45,899 [INFO] network_benchmark:   RTT=0ms: 140/500
+2026-08-09 19:27:46,163 [INFO] network_benchmark:   RTT=0ms: 160/500
+2026-08-09 19:27:46,442 [INFO] network_benchmark:   RTT=0ms: 180/500
+2026-08-09 19:27:46,718 [INFO] network_benchmark:   RTT=0ms: 200/500
+2026-08-09 19:27:46,979 [INFO] network_benchmark:   RTT=0ms: 220/500
+2026-08-09 19:27:47,251 [INFO] network_benchmark:   RTT=0ms: 240/500
+2026-08-09 19:27:47,525 [INFO] network_benchmark:   RTT=0ms: 260/500
+2026-08-09 19:27:47,805 [INFO] network_benchmark:   RTT=0ms: 280/500
+2026-08-09 19:27:48,059 [INFO] network_benchmark:   RTT=0ms: 300/500
+2026-08-09 19:27:48,338 [INFO] network_benchmark:   RTT=0ms: 320/500
+2026-08-09 19:27:48,612 [INFO] network_benchmark:   RTT=0ms: 340/500
+2026-08-09 19:27:48,885 [INFO] network_benchmark:   RTT=0ms: 360/500
+2026-08-09 19:27:49,145 [INFO] network_benchmark:   RTT=0ms: 380/500
+2026-08-09 19:27:49,424 [INFO] network_benchmark:   RTT=0ms: 400/500
+2026-08-09 19:27:49,698 [INFO] network_benchmark:   RTT=0ms: 420/500
+2026-08-09 19:27:49,964 [INFO] network_benchmark:   RTT=0ms: 440/500
+2026-08-09 19:27:50,230 [INFO] network_benchmark:   RTT=0ms: 460/500
+2026-08-09 19:27:50,507 [INFO] network_benchmark:   RTT=0ms: 480/500
+2026-08-09 19:27:50,788 [INFO] network_benchmark:   RTT=0ms: 500/500
+2026-08-09 19:27:50,791 [INFO] network_benchmark: 
+RTT: 20 ms
+2026-08-09 19:27:54,077 [INFO] network_benchmark:   RTT=20ms: 20/500
+2026-08-09 19:27:55,159 [INFO] network_benchmark:   RTT=20ms: 40/500
+2026-08-09 19:27:56,244 [INFO] network_benchmark:   RTT=20ms: 60/500
+2026-08-09 19:27:57,330 [INFO] network_benchmark:   RTT=20ms: 80/500
+2026-08-09 19:27:58,412 [INFO] network_benchmark:   RTT=20ms: 100/500
+2026-08-09 19:27:59,494 [INFO] network_benchmark:   RTT=20ms: 120/500
+2026-08-09 19:28:00,575 [INFO] network_benchmark:   RTT=20ms: 140/500
+2026-08-09 19:28:01,659 [INFO] network_benchmark:   RTT=20ms: 160/500
+2026-08-09 19:28:02,744 [INFO] network_benchmark:   RTT=20ms: 180/500
+2026-08-09 19:28:03,823 [INFO] network_benchmark:   RTT=20ms: 200/500
+2026-08-09 19:28:04,903 [INFO] network_benchmark:   RTT=20ms: 220/500
+2026-08-09 19:28:05,988 [INFO] network_benchmark:   RTT=20ms: 240/500
+2026-08-09 19:28:07,071 [INFO] network_benchmark:   RTT=20ms: 260/500
+2026-08-09 19:28:08,155 [INFO] network_benchmark:   RTT=20ms: 280/500
+2026-08-09 19:28:09,241 [INFO] network_benchmark:   RTT=20ms: 300/500
+2026-08-09 19:28:10,321 [INFO] network_benchmark:   RTT=20ms: 320/500
+2026-08-09 19:28:11,407 [INFO] network_benchmark:   RTT=20ms: 340/500
+2026-08-09 19:28:12,492 [INFO] network_benchmark:   RTT=20ms: 360/500
+2026-08-09 19:28:13,578 [INFO] network_benchmark:   RTT=20ms: 380/500
+2026-08-09 19:28:14,659 [INFO] network_benchmark:   RTT=20ms: 400/500
+2026-08-09 19:28:15,742 [INFO] network_benchmark:   RTT=20ms: 420/500
+2026-08-09 19:28:16,820 [INFO] network_benchmark:   RTT=20ms: 440/500
+2026-08-09 19:28:17,903 [INFO] network_benchmark:   RTT=20ms: 460/500
+2026-08-09 19:28:18,984 [INFO] network_benchmark:   RTT=20ms: 480/500
+2026-08-09 19:28:20,070 [INFO] network_benchmark:   RTT=20ms: 500/500
+2026-08-09 19:28:20,073 [INFO] network_benchmark: 
+RTT: 50 ms
+2026-08-09 19:28:27,564 [INFO] network_benchmark:   RTT=50ms: 20/500
+2026-08-09 19:28:29,847 [INFO] network_benchmark:   RTT=50ms: 40/500
+2026-08-09 19:28:32,130 [INFO] network_benchmark:   RTT=50ms: 60/500
+2026-08-09 19:28:34,419 [INFO] network_benchmark:   RTT=50ms: 80/500
+2026-08-09 19:28:36,708 [INFO] network_benchmark:   RTT=50ms: 100/500
+2026-08-09 19:28:38,991 [INFO] network_benchmark:   RTT=50ms: 120/500
+2026-08-09 19:28:41,279 [INFO] network_benchmark:   RTT=50ms: 140/500
+2026-08-09 19:28:43,565 [INFO] network_benchmark:   RTT=50ms: 160/500
+2026-08-09 19:28:45,845 [INFO] network_benchmark:   RTT=50ms: 180/500
+2026-08-09 19:28:48,131 [INFO] network_benchmark:   RTT=50ms: 200/500
+2026-08-09 19:28:50,415 [INFO] network_benchmark:   RTT=50ms: 220/500
+2026-08-09 19:28:52,703 [INFO] network_benchmark:   RTT=50ms: 240/500
+2026-08-09 19:28:54,989 [INFO] network_benchmark:   RTT=50ms: 260/500
+2026-08-09 19:28:57,276 [INFO] network_benchmark:   RTT=50ms: 280/500
+2026-08-09 19:28:59,563 [INFO] network_benchmark:   RTT=50ms: 300/500
+2026-08-09 19:29:01,846 [INFO] network_benchmark:   RTT=50ms: 320/500
+2026-08-09 19:29:04,130 [INFO] network_benchmark:   RTT=50ms: 340/500
+2026-08-09 19:29:06,416 [INFO] network_benchmark:   RTT=50ms: 360/500
+2026-08-09 19:29:08,702 [INFO] network_benchmark:   RTT=50ms: 380/500
+2026-08-09 19:29:10,986 [INFO] network_benchmark:   RTT=50ms: 400/500
+2026-08-09 19:29:13,271 [INFO] network_benchmark:   RTT=50ms: 420/500
+2026-08-09 19:29:15,556 [INFO] network_benchmark:   RTT=50ms: 440/500
+2026-08-09 19:29:17,842 [INFO] network_benchmark:   RTT=50ms: 460/500
+2026-08-09 19:29:20,128 [INFO] network_benchmark:   RTT=50ms: 480/500
+2026-08-09 19:29:22,411 [INFO] network_benchmark:   RTT=50ms: 500/500
+2026-08-09 19:29:22,414 [INFO] network_benchmark: 
+RTT: 100 ms
+2026-08-09 19:29:36,899 [INFO] network_benchmark:   RTT=100ms: 20/500
+2026-08-09 19:29:41,183 [INFO] network_benchmark:   RTT=100ms: 40/500
+2026-08-09 19:29:45,473 [INFO] network_benchmark:   RTT=100ms: 60/500
+2026-08-09 19:29:49,759 [INFO] network_benchmark:   RTT=100ms: 80/500
+2026-08-09 19:29:54,050 [INFO] network_benchmark:   RTT=100ms: 100/500
+2026-08-09 19:29:58,348 [INFO] network_benchmark:   RTT=100ms: 120/500
+2026-08-09 19:30:02,633 [INFO] network_benchmark:   RTT=100ms: 140/500
+2026-08-09 19:30:06,919 [INFO] network_benchmark:   RTT=100ms: 160/500
+2026-08-09 19:30:11,202 [INFO] network_benchmark:   RTT=100ms: 180/500
+2026-08-09 19:30:15,486 [INFO] network_benchmark:   RTT=100ms: 200/500
+2026-08-09 19:30:19,770 [INFO] network_benchmark:   RTT=100ms: 220/500
+2026-08-09 19:30:24,053 [INFO] network_benchmark:   RTT=100ms: 240/500
+2026-08-09 19:30:28,345 [INFO] network_benchmark:   RTT=100ms: 260/500
+2026-08-09 19:30:32,629 [INFO] network_benchmark:   RTT=100ms: 280/500
+2026-08-09 19:30:36,921 [INFO] network_benchmark:   RTT=100ms: 300/500
+2026-08-09 19:30:41,206 [INFO] network_benchmark:   RTT=100ms: 320/500
+2026-08-09 19:30:45,494 [INFO] network_benchmark:   RTT=100ms: 340/500
+2026-08-09 19:30:49,786 [INFO] network_benchmark:   RTT=100ms: 360/500
+2026-08-09 19:30:54,067 [INFO] network_benchmark:   RTT=100ms: 380/500
+2026-08-09 19:30:58,354 [INFO] network_benchmark:   RTT=100ms: 400/500
+2026-08-09 19:31:02,643 [INFO] network_benchmark:   RTT=100ms: 420/500
+2026-08-09 19:31:06,933 [INFO] network_benchmark:   RTT=100ms: 440/500
+2026-08-09 19:31:11,217 [INFO] network_benchmark:   RTT=100ms: 460/500
+2026-08-09 19:31:15,503 [INFO] network_benchmark:   RTT=100ms: 480/500
+2026-08-09 19:31:19,789 [INFO] network_benchmark:   RTT=100ms: 500/500
+2026-08-09 19:31:19,793 [INFO] network_benchmark: 
+RTT: 250 ms
+2026-08-09 19:31:55,289 [INFO] network_benchmark:   RTT=250ms: 20/500
+2026-08-09 19:32:05,574 [INFO] network_benchmark:   RTT=250ms: 40/500
+2026-08-09 19:32:15,859 [INFO] network_benchmark:   RTT=250ms: 60/500
+2026-08-09 19:32:26,145 [INFO] network_benchmark:   RTT=250ms: 80/500
+2026-08-09 19:32:36,427 [INFO] network_benchmark:   RTT=250ms: 100/500
+2026-08-09 19:32:46,713 [INFO] network_benchmark:   RTT=250ms: 120/500
+2026-08-09 19:32:56,997 [INFO] network_benchmark:   RTT=250ms: 140/500
+2026-08-09 19:33:07,286 [INFO] network_benchmark:   RTT=250ms: 160/500
+2026-08-09 19:33:17,574 [INFO] network_benchmark:   RTT=250ms: 180/500
+2026-08-09 19:33:27,859 [INFO] network_benchmark:   RTT=250ms: 200/500
+2026-08-09 19:33:38,142 [INFO] network_benchmark:   RTT=250ms: 220/500
+2026-08-09 19:33:48,431 [INFO] network_benchmark:   RTT=250ms: 240/500
+2026-08-09 19:33:58,719 [INFO] network_benchmark:   RTT=250ms: 260/500
+2026-08-09 19:34:09,001 [INFO] network_benchmark:   RTT=250ms: 280/500
+2026-08-09 19:34:19,284 [INFO] network_benchmark:   RTT=250ms: 300/500
+2026-08-09 19:34:29,570 [INFO] network_benchmark:   RTT=250ms: 320/500
+2026-08-09 19:34:39,858 [INFO] network_benchmark:   RTT=250ms: 340/500
+2026-08-09 19:34:50,142 [INFO] network_benchmark:   RTT=250ms: 360/500
+2026-08-09 19:35:00,425 [INFO] network_benchmark:   RTT=250ms: 380/500
+2026-08-09 19:35:10,710 [INFO] network_benchmark:   RTT=250ms: 400/500
+2026-08-09 19:35:20,991 [INFO] network_benchmark:   RTT=250ms: 420/500
+2026-08-09 19:35:31,281 [INFO] network_benchmark:   RTT=250ms: 440/500
+2026-08-09 19:35:41,564 [INFO] network_benchmark:   RTT=250ms: 460/500
+2026-08-09 19:35:51,848 [INFO] network_benchmark:   RTT=250ms: 480/500
+2026-08-09 19:36:02,128 [INFO] network_benchmark:   RTT=250ms: 500/500
+2026-08-09 19:36:02,132 [INFO] network_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/network_benchmarks.json
+2026-08-09 19:36:02,133 [INFO] network_benchmark: Completed in 498.3s

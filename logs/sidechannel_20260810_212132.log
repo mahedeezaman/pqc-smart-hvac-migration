@@ -1,0 +1,36 @@
+2026-08-10 21:21:32,998 [INFO] sidechannel: ============================================================
+2026-08-10 21:21:32,999 [INFO] sidechannel: SIDE-CHANNEL ANALYSIS
+2026-08-10 21:21:33,000 [INFO] sidechannel: ============================================================
+2026-08-10 21:21:33,000 [INFO] sidechannel: TEST 1: Memory forensics (in-place zeroization check)
+2026-08-10 21:21:33,035 [INFO] sidechannel:   Method: direct_address | Nonzero bytes remaining: False | PASS
+2026-08-10 21:21:33,035 [INFO] sidechannel: TEST 2: MITM simulation (clean isolation)
+2026-08-10 21:21:33,042 [INFO] sidechannel:   Attacker obtained shared secret: True | Victim blocked forged completion: True (ValueError)
+2026-08-10 21:21:33,043 [INFO] sidechannel: TEST 3: Nonce collision — 10000 nonces
+2026-08-10 21:21:33,058 [INFO] sidechannel:   10000/10000 unique | P(collision)=6.310e-22
+2026-08-10 21:21:33,061 [INFO] sidechannel: TEST 4: Timing CV%% relative to AES-256-GCM baseline — 5000 samples, architecture path (PQCProxy.decapsulate)
+2026-08-10 21:21:59,305 [INFO] sidechannel:   AES-256-GCM baseline: mean=0.1377ms, CV=80.68%
+2026-08-10 21:22:36,271 [INFO] sidechannel:   PQCProxy.decapsulate(): mean=1.2326ms, CV=38.8% (-41.88pp vs baseline)
+2026-08-10 21:22:36,272 [INFO] sidechannel: TEST 5: TVLA fixed-vs-random (architecture path, pre-generated) — 50000 samples per group
+2026-08-10 21:23:24,620 [INFO] sidechannel:   5000/100000
+2026-08-10 21:23:30,966 [INFO] sidechannel:   10000/100000
+2026-08-10 21:23:37,848 [INFO] sidechannel:   15000/100000
+2026-08-10 21:23:44,459 [INFO] sidechannel:   20000/100000
+2026-08-10 21:23:50,483 [INFO] sidechannel:   25000/100000
+2026-08-10 21:23:57,027 [INFO] sidechannel:   30000/100000
+2026-08-10 21:24:03,702 [INFO] sidechannel:   35000/100000
+2026-08-10 21:24:10,459 [INFO] sidechannel:   40000/100000
+2026-08-10 21:24:16,240 [INFO] sidechannel:   45000/100000
+2026-08-10 21:24:22,065 [INFO] sidechannel:   50000/100000
+2026-08-10 21:24:27,833 [INFO] sidechannel:   55000/100000
+2026-08-10 21:24:33,677 [INFO] sidechannel:   60000/100000
+2026-08-10 21:24:39,437 [INFO] sidechannel:   65000/100000
+2026-08-10 21:24:45,208 [INFO] sidechannel:   70000/100000
+2026-08-10 21:24:51,022 [INFO] sidechannel:   75000/100000
+2026-08-10 21:24:56,795 [INFO] sidechannel:   80000/100000
+2026-08-10 21:25:02,528 [INFO] sidechannel:   85000/100000
+2026-08-10 21:25:08,291 [INFO] sidechannel:   90000/100000
+2026-08-10 21:25:14,061 [INFO] sidechannel:   95000/100000
+2026-08-10 21:25:19,832 [INFO] sidechannel:   100000/100000
+2026-08-10 21:25:20,151 [INFO] sidechannel:   t-statistic = -0.268 | PASS
+2026-08-10 21:25:20,461 [INFO] sidechannel: 
+4/4 pass/fail tests passed. (timing_baseline_relative is descriptive, reported separately.)

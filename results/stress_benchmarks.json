@@ -1,0 +1,107 @@
+{
+  "system_info": {
+    "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+    "processor": "",
+    "python": "3.13.5",
+    "timestamp": "2026-08-10T21:21:32.991682",
+    "cpu_freq_mhz": 1800.0,
+    "cpu_temp_c": 42.355
+  },
+  "results": {
+    "throughput": {
+      "sessions": 500,
+      "wall_time_s": 1.13,
+      "sessions_per_second": 443.3,
+      "latency": {
+        "mean_ms": 2.2249,
+        "std_ms": 0.8502,
+        "min_ms": 1.2611,
+        "max_ms": 5.6287,
+        "p95_ms": 3.8957,
+        "n_samples": 500,
+        "energy_mj": 1.334938
+      },
+      "memory": {
+        "start_kb": 31942.0,
+        "end_kb": 32002.0,
+        "growth_kb": 60.0,
+        "leak_detected": false
+      }
+    },
+    "concurrent": {
+      "1_threads": {
+        "threads": 1,
+        "successful": 1,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 4.07,
+        "max_latency_ms": 4.07,
+        "wall_time_ms": 6.2,
+        "throughput_per_sec": 160.7,
+        "errors": []
+      },
+      "2_threads": {
+        "threads": 2,
+        "successful": 2,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 3.341,
+        "max_latency_ms": 3.43,
+        "wall_time_ms": 4.2,
+        "throughput_per_sec": 473.6,
+        "errors": []
+      },
+      "4_threads": {
+        "threads": 4,
+        "successful": 4,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 3.065,
+        "max_latency_ms": 3.451,
+        "wall_time_ms": 4.5,
+        "throughput_per_sec": 887.9,
+        "errors": []
+      },
+      "8_threads": {
+        "threads": 8,
+        "successful": 8,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 7.405,
+        "max_latency_ms": 10.325,
+        "wall_time_ms": 22.3,
+        "throughput_per_sec": 358.2,
+        "errors": []
+      },
+      "16_threads": {
+        "threads": 16,
+        "successful": 16,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 10.551,
+        "max_latency_ms": 17.351,
+        "wall_time_ms": 36.0,
+        "throughput_per_sec": 444.5,
+        "errors": []
+      },
+      "32_threads": {
+        "threads": 32,
+        "successful": 32,
+        "failed": 0,
+        "success_rate_pct": 100.0,
+        "mean_latency_ms": 13.923,
+        "max_latency_ms": 23.868,
+        "wall_time_ms": 105.4,
+        "throughput_per_sec": 303.6,
+        "errors": []
+      }
+    },
+    "extrapolation": {
+      "pi4b_single_core_sps": 110.8,
+      "pi4b_all_cores_sps": 443.3,
+      "cloud_8core_instance_sps": 886.6,
+      "cloud_32core_instance_sps": 3546.4,
+      "note": "Extrapolation assumes linear scaling per core. Cloud instances use horizontal scaling; actual throughput depends on network I/O and load balancer."
+    }
+  }
+}

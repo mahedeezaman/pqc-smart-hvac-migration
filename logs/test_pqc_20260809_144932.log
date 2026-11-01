@@ -1,0 +1,14 @@
+2026-08-09 14:49:32,268 [INFO] test_pqc: === Integration Test: Full 9-Step PQC Handshake ===
+2026-08-09 14:49:32,280 [INFO] test_pqc: Step 1 ✓ | nonce: 32 bytes
+2026-08-09 14:49:32,285 [INFO] test_pqc: Step 2 ✓ | pk: 1184 B | KeyGen: 4.136 ms
+2026-08-09 14:49:32,286 [INFO] test_pqc: Step 3 ✓ | ct: 1088 B | Encap: 0.441 ms
+2026-08-09 14:49:32,309 [INFO] test_pqc: Step 4 ✓ | Decap: 0.152 ms
+2026-08-09 14:49:32,309 [INFO] test_pqc: Step 5 ✓ | sig: 3309 B | Sign: 1.041 ms
+2026-08-09 14:49:32,309 [INFO] test_pqc: Shared secret match ✓
+2026-08-09 14:49:32,311 [INFO] test_pqc: Step 6 ✓ | Verify: 0.798 ms
+2026-08-09 14:49:32,311 [INFO] test_pqc: Session key match ✓
+2026-08-09 14:49:32,313 [INFO] test_pqc: Step 7 ✓ | cmd ct: 27 bytes
+2026-08-09 14:49:32,314 [INFO] test_pqc: Step 8 ✓ | decrypted: SET_TEMP:22
+2026-08-09 14:49:32,314 [INFO] test_pqc: Step 9 ✓ | response: ACK:22
+2026-08-09 14:49:32,315 [INFO] test_pqc: 
+=== ALL 9 STEPS PASSED ✓ ===

@@ -1,0 +1,59 @@
+2026-08-09 14:59:29,385 [INFO] operations_benchmark: =======================================================
+2026-08-09 14:59:29,386 [INFO] operations_benchmark:   OPERATIONS_BENCHMARK
+2026-08-09 14:59:29,386 [INFO] operations_benchmark: =======================================================
+2026-08-09 14:59:29,386 [INFO] operations_benchmark: Temperature: 37.485°C ✓
+2026-08-09 14:59:29,419 [INFO] operations_benchmark: 
+ECDH Baseline:
+2026-08-09 14:59:29,419 [INFO] operations_benchmark:   ECDH baseline
+2026-08-09 14:59:31,791 [INFO] operations_benchmark:     20/100
+2026-08-09 14:59:34,155 [INFO] operations_benchmark:     40/100
+2026-08-09 14:59:36,520 [INFO] operations_benchmark:     60/100
+2026-08-09 14:59:38,884 [INFO] operations_benchmark:     80/100
+2026-08-09 14:59:41,250 [INFO] operations_benchmark:     100/100
+2026-08-09 14:59:41,254 [INFO] operations_benchmark: 
+ML-KEM-512+ML-DSA-44:
+2026-08-09 14:59:41,254 [INFO] operations_benchmark:   KEM: ML-KEM-512
+2026-08-09 14:59:43,038 [INFO] operations_benchmark:     20/100
+2026-08-09 14:59:44,823 [INFO] operations_benchmark:     40/100
+2026-08-09 14:59:46,608 [INFO] operations_benchmark:     60/100
+2026-08-09 14:59:48,391 [INFO] operations_benchmark:     80/100
+2026-08-09 14:59:50,175 [INFO] operations_benchmark:     100/100
+2026-08-09 14:59:50,178 [INFO] operations_benchmark:   DSA: ML-DSA-44
+2026-08-09 14:59:51,388 [INFO] operations_benchmark:     20/100
+2026-08-09 14:59:52,591 [INFO] operations_benchmark:     40/100
+2026-08-09 14:59:53,797 [INFO] operations_benchmark:     60/100
+2026-08-09 14:59:55,001 [INFO] operations_benchmark:     80/100
+2026-08-09 14:59:56,203 [INFO] operations_benchmark:     100/100
+2026-08-09 14:59:56,207 [INFO] operations_benchmark:   Peak RSS delta: 24.0 KB
+2026-08-09 14:59:56,208 [INFO] operations_benchmark: 
+ML-KEM-768+ML-DSA-65:
+2026-08-09 14:59:56,208 [INFO] operations_benchmark:   KEM: ML-KEM-768
+2026-08-09 14:59:57,996 [INFO] operations_benchmark:     20/100
+2026-08-09 14:59:59,783 [INFO] operations_benchmark:     40/100
+2026-08-09 15:00:01,568 [INFO] operations_benchmark:     60/100
+2026-08-09 15:00:03,353 [INFO] operations_benchmark:     80/100
+2026-08-09 15:00:05,137 [INFO] operations_benchmark:     100/100
+2026-08-09 15:00:05,139 [INFO] operations_benchmark:   DSA: ML-DSA-65
+2026-08-09 15:00:06,359 [INFO] operations_benchmark:     20/100
+2026-08-09 15:00:07,570 [INFO] operations_benchmark:     40/100
+2026-08-09 15:00:08,780 [INFO] operations_benchmark:     60/100
+2026-08-09 15:00:09,990 [INFO] operations_benchmark:     80/100
+2026-08-09 15:00:11,199 [INFO] operations_benchmark:     100/100
+2026-08-09 15:00:11,203 [INFO] operations_benchmark:   Peak RSS delta: 28.0 KB
+2026-08-09 15:00:11,204 [INFO] operations_benchmark: 
+ML-KEM-1024+ML-DSA-87:
+2026-08-09 15:00:11,204 [INFO] operations_benchmark:   KEM: ML-KEM-1024
+2026-08-09 15:00:12,994 [INFO] operations_benchmark:     20/100
+2026-08-09 15:00:14,784 [INFO] operations_benchmark:     40/100
+2026-08-09 15:00:16,571 [INFO] operations_benchmark:     60/100
+2026-08-09 15:00:18,405 [INFO] operations_benchmark:     80/100
+2026-08-09 15:00:20,232 [INFO] operations_benchmark:     100/100
+2026-08-09 15:00:20,234 [INFO] operations_benchmark:   DSA: ML-DSA-87
+2026-08-09 15:00:21,518 [INFO] operations_benchmark:     20/100
+2026-08-09 15:00:22,786 [INFO] operations_benchmark:     40/100
+2026-08-09 15:00:24,051 [INFO] operations_benchmark:     60/100
+2026-08-09 15:00:25,364 [INFO] operations_benchmark:     80/100
+2026-08-09 15:00:26,731 [INFO] operations_benchmark:     100/100
+2026-08-09 15:00:26,735 [INFO] operations_benchmark:   Peak RSS delta: 144.0 KB
+2026-08-09 15:00:26,740 [INFO] operations_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/operation_benchmarks.json
+2026-08-09 15:00:26,744 [INFO] operations_benchmark: Completed in 57.4s

@@ -1,0 +1,38 @@
+2026-08-10 18:36:40,227 [INFO] stress_benchmark: =======================================================
+2026-08-10 18:36:40,228 [INFO] stress_benchmark:   STRESS_BENCHMARK
+2026-08-10 18:36:40,228 [INFO] stress_benchmark: =======================================================
+2026-08-10 18:36:40,228 [INFO] stress_benchmark: Temperature: 38.946°C ✓
+2026-08-10 18:36:40,228 [INFO] stress_benchmark: 
+── Test 1: Sequential Throughput ──
+2026-08-10 18:36:40,228 [INFO] stress_benchmark: Throughput test: 500 sequential sessions
+2026-08-10 18:36:40,231 [INFO] stress_benchmark:   0/500 | mem: 31944 KB
+2026-08-10 18:36:40,340 [INFO] stress_benchmark:   50/500 | mem: 31948 KB
+2026-08-10 18:36:40,446 [INFO] stress_benchmark:   100/500 | mem: 31960 KB
+2026-08-10 18:36:40,550 [INFO] stress_benchmark:   150/500 | mem: 31968 KB
+2026-08-10 18:36:40,658 [INFO] stress_benchmark:   200/500 | mem: 31972 KB
+2026-08-10 18:36:40,763 [INFO] stress_benchmark:   250/500 | mem: 31976 KB
+2026-08-10 18:36:40,871 [INFO] stress_benchmark:   300/500 | mem: 31984 KB
+2026-08-10 18:36:40,978 [INFO] stress_benchmark:   350/500 | mem: 31996 KB
+2026-08-10 18:36:41,076 [INFO] stress_benchmark:   400/500 | mem: 32008 KB
+2026-08-10 18:36:41,165 [INFO] stress_benchmark:   450/500 | mem: 32016 KB
+2026-08-10 18:36:41,251 [INFO] stress_benchmark:   ✔ 490.6 sessions/sec | mem growth: 66.0 KB
+2026-08-10 18:36:41,251 [INFO] stress_benchmark: 
+── Test 2: Concurrent Sessions ──
+2026-08-10 18:36:41,251 [INFO] stress_benchmark: Concurrent test: 1 simultaneous sessions
+2026-08-10 18:36:41,256 [INFO] stress_benchmark:    1 threads: 100.0% success | 2.64ms mean | 293.1 sess/s
+2026-08-10 18:36:41,256 [INFO] stress_benchmark: Concurrent test: 2 simultaneous sessions
+2026-08-10 18:36:41,260 [INFO] stress_benchmark:    2 threads: 100.0% success | 2.13ms mean | 723.3 sess/s
+2026-08-10 18:36:41,261 [INFO] stress_benchmark: Concurrent test: 4 simultaneous sessions
+2026-08-10 18:36:41,267 [INFO] stress_benchmark:    4 threads: 100.0% success | 3.41ms mean | 743.1 sess/s
+2026-08-10 18:36:41,267 [INFO] stress_benchmark: Concurrent test: 8 simultaneous sessions
+2026-08-10 18:36:41,291 [INFO] stress_benchmark:    8 threads: 100.0% success | 9.37ms mean | 358.4 sess/s
+2026-08-10 18:36:41,291 [INFO] stress_benchmark: Concurrent test: 16 simultaneous sessions
+2026-08-10 18:36:41,326 [INFO] stress_benchmark:   16 threads: 100.0% success | 9.72ms mean | 486.7 sess/s
+2026-08-10 18:36:41,326 [INFO] stress_benchmark: Concurrent test: 32 simultaneous sessions
+2026-08-10 18:36:41,393 [INFO] stress_benchmark:   32 threads: 100.0% success | 10.54ms mean | 487.9 sess/s
+2026-08-10 18:36:41,394 [INFO] stress_benchmark: 
+── Test 3: Cloud Extrapolation ──
+2026-08-10 18:36:41,394 [INFO] stress_benchmark:   Pi 4B (4 cores): 490.6 sess/s
+2026-08-10 18:36:41,394 [INFO] stress_benchmark:   Cloud 32-core:   3924.8 sess/s
+2026-08-10 18:36:41,396 [INFO] stress_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/stress_benchmarks.json
+2026-08-10 18:36:41,396 [INFO] stress_benchmark: Completed in 1.2s

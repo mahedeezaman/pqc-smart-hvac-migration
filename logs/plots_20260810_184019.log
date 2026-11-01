@@ -1,0 +1,5 @@
+2026-08-10 18:40:19,645 [INFO] plots: Generating all plots...
+2026-08-10 18:40:21,625 [INFO] plots:   ✔ latency_comparison.png
+2026-08-10 18:40:23,204 [INFO] plots:   ✔ energy_comparison.png
+2026-08-10 18:40:24,124 [INFO] plots:   ✔ handshake_comparison.png
+2026-08-10 18:40:25,220 [INFO] plots:   ✔ network_impact.png

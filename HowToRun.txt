@@ -1,0 +1,8 @@
+echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+# Verify
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+# Should show 1800000
+
+cd ~/pqc_benchmark
+python3 run.py all

@@ -1,0 +1,57 @@
+{
+  "memory_forensics": {
+    "test": "Memory Forensics",
+    "session_key_length": 32,
+    "scan_method": "direct_address",
+    "scan_detail": "Inspected 32 bytes at proxy's internal buffer address post-zeroization",
+    "key_found_after_end": false,
+    "passed": true,
+    "interpretation": "Session key buffer verified zeroed in place after end_session()."
+  },
+  "mitm_simulation": {
+    "test": "MITM Attack Simulation",
+    "attacker_obtained_secret": true,
+    "mitm_blocked_by_mldsa": true,
+    "exception_raised": "ValueError",
+    "passed": true,
+    "interpretation": "Attacker successfully substituted their KEM key and recovered the shared secret, but ValueError blocked the victim from accepting a session using a signature the attacker could not forge over the substituted transcript. MITM blocked by ML-DSA-65."
+  },
+  "nonce_collision": {
+    "test": "Nonce Collision Test",
+    "nonces_generated": 10000,
+    "nonce_size_bits": 96,
+    "unique_nonces": 10000,
+    "collision_found": false,
+    "theoretical_probability": "6.310e-22",
+    "passed": true,
+    "interpretation": "No collisions in 10000 nonces. P(collision)=6.310e-22 \u2014 negligible."
+  },
+  "timing_baseline_relative": {
+    "test": "Timing CV%% Relative to AES-256-GCM Baseline (Architecture Path)",
+    "methodology": "Measures PQCProxy.decapsulate() \u2014 the actual architecture operation (ML-KEM decapsulation + ML-DSA signing + HKDF derivation), not raw liboqs decap_secret() alone \u2014 against AES-256-GCM (also part of this architecture) as a same-run, same-hardware constant-time noise-floor reference, per the approach used in published PQC benchmarking work (e.g. arXiv:2605.17061).",
+    "n_per_operation": 5000,
+    "aes_gcm_baseline": {
+      "mean_ms": 0.1377,
+      "cv_pct": 80.68
+    },
+    "pqc_proxy_decapsulate": {
+      "mean_ms": 1.2326,
+      "cv_pct": 38.8,
+      "cv_relative_to_baseline_pp": -41.88
+    },
+    "interpretation": "CV%% is reported relative to this environment's own measured noise floor (AES-256-GCM), and measured on the full architecture decapsulation path, not the underlying library in isolation. See TEST 5 (TVLA) for the rigorous leakage assessment on this same path."
+  },
+  "tvla_fixed_random": {
+    "test": "TVLA Fixed-vs-Random (PQCProxy.decapsulate Architecture Path, Pre-generated)",
+    "method": "Welch's t-test, Goodwill et al. 2011",
+    "channel": "timing only \u2014 not power/EM",
+    "n_fixed": 50000,
+    "n_random": 50000,
+    "t_statistic": -0.2681,
+    "threshold": 4.5,
+    "passed": true,
+    "fixed_mean_ms": 1.2081,
+    "random_mean_ms": 1.2091,
+    "interpretation": "|t|=0.268 <= 4.5 \u2014 no timing leakage detected."
+  }
+}

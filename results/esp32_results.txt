@@ -1,0 +1,38 @@
+ECDH-P256 keygen (20/20 runs successful):
+  Mean : 111.9270 ms
+  Min  : 111.6700 ms
+  Max  : 112.3700 ms
+  Note : Software ECDH (no hardware acceleration on ESP32-S3)
+[MEM] After ECDH: Free heap = 346864 bytes (338.7 KB), Min free = 338380 bytes
+
+=== ML-KEM-768 Memory Feasibility Test ===
+Available SRAM : 347424 bytes (339.3 KB)
+ML-KEM-768 req : 921600 bytes (900.0 KB)
+Deficit        : 574176 bytes
+RESULT: INSUFFICIENT MEMORY for ML-KEM-768 KeyGen.
+This empirically confirms the infeasibility claim.
+
+Attempting malloc(900KB)...
+malloc(900KB) FAILED — as expected.
+ML-KEM-768 cannot run on this device.
+
+Max single allocation: 276480 bytes (270.0 KB)
+
+========================================
+BENCHMARK COMPLETE
+========================================
+
+{
+  "platform": "ESP32-S3",
+  "cpu_mhz": 240,
+  "sram_bytes": 388704,
+  "psram_bytes": 0,
+  "free_heap_bytes": 347424,
+  "mlkem768_required_bytes": 921600,
+  "mlkem768_feasible": false,
+  "malloc_900kb_succeeded": false,
+  "max_single_alloc_bytes": 276480,
+  "aes128_mean_ms": 0.0320,
+  "ecdh_keygen_mean_ms": 111.9270
+}
+--- END JSON ---

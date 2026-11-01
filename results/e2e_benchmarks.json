@@ -1,0 +1,71 @@
+{
+  "system_info": {
+    "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+    "processor": "",
+    "python": "3.13.5",
+    "timestamp": "2026-08-10T21:13:13.351602",
+    "cpu_freq_mhz": 1800.0,
+    "cpu_temp_c": 43.329
+  },
+  "results": {
+    "note": "Long-term DSA keypair persists. Session state resets per run.",
+    "ECDH_baseline": {
+      "handshake_steps1to6": {
+        "mean_ms": 2.0987,
+        "std_ms": 0.4578,
+        "min_ms": 1.4969,
+        "max_ms": 4.366,
+        "p95_ms": 2.9963,
+        "n_samples": 500,
+        "energy_mj": 1.259242
+      },
+      "command_encrypt": {
+        "mean_ms": 0.079,
+        "std_ms": 0.0286,
+        "min_ms": 0.0369,
+        "max_ms": 0.3252,
+        "p95_ms": 0.1334,
+        "n_samples": 500,
+        "energy_mj": 0.047379
+      },
+      "command_decrypt": {
+        "mean_ms": 0.0369,
+        "std_ms": 0.0076,
+        "min_ms": 0.0281,
+        "max_ms": 0.0986,
+        "p95_ms": 0.0496,
+        "n_samples": 500,
+        "energy_mj": 0.022154
+      }
+    },
+    "ML-KEM-768_proxy": {
+      "handshake_steps1to6": {
+        "mean_ms": 2.4765,
+        "std_ms": 0.7659,
+        "min_ms": 1.3945,
+        "max_ms": 5.1987,
+        "p95_ms": 3.9971,
+        "n_samples": 500,
+        "energy_mj": 1.485922
+      },
+      "command_encrypt": {
+        "mean_ms": 0.0909,
+        "std_ms": 0.0398,
+        "min_ms": 0.0466,
+        "max_ms": 0.2677,
+        "p95_ms": 0.1803,
+        "n_samples": 500,
+        "energy_mj": 0.054524
+      },
+      "command_decrypt": {
+        "mean_ms": 0.0427,
+        "std_ms": 0.016,
+        "min_ms": 0.0315,
+        "max_ms": 0.2458,
+        "p95_ms": 0.0703,
+        "n_samples": 500,
+        "energy_mj": 0.025628
+      }
+    }
+  }
+}

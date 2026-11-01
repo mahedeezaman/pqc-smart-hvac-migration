@@ -1,0 +1,58 @@
+2026-08-09 16:51:07,291 [INFO] e2e_benchmark: =======================================================
+2026-08-09 16:51:07,291 [INFO] e2e_benchmark:   E2E_BENCHMARK
+2026-08-09 16:51:07,292 [INFO] e2e_benchmark: =======================================================
+2026-08-09 16:51:07,292 [INFO] e2e_benchmark: Temperature: 44.303°C ✓
+2026-08-09 16:51:07,292 [INFO] e2e_benchmark: ECDH handshake (baseline)...
+2026-08-09 16:51:07,622 [INFO] e2e_benchmark:   20/500
+2026-08-09 16:51:07,871 [INFO] e2e_benchmark:   40/500
+2026-08-09 16:51:08,121 [INFO] e2e_benchmark:   60/500
+2026-08-09 16:51:08,361 [INFO] e2e_benchmark:   80/500
+2026-08-09 16:51:08,611 [INFO] e2e_benchmark:   100/500
+2026-08-09 16:51:08,859 [INFO] e2e_benchmark:   120/500
+2026-08-09 16:51:09,108 [INFO] e2e_benchmark:   140/500
+2026-08-09 16:51:09,350 [INFO] e2e_benchmark:   160/500
+2026-08-09 16:51:09,599 [INFO] e2e_benchmark:   180/500
+2026-08-09 16:51:09,846 [INFO] e2e_benchmark:   200/500
+2026-08-09 16:51:10,095 [INFO] e2e_benchmark:   220/500
+2026-08-09 16:51:10,340 [INFO] e2e_benchmark:   240/500
+2026-08-09 16:51:10,589 [INFO] e2e_benchmark:   260/500
+2026-08-09 16:51:10,839 [INFO] e2e_benchmark:   280/500
+2026-08-09 16:51:11,089 [INFO] e2e_benchmark:   300/500
+2026-08-09 16:51:11,331 [INFO] e2e_benchmark:   320/500
+2026-08-09 16:51:11,577 [INFO] e2e_benchmark:   340/500
+2026-08-09 16:51:11,827 [INFO] e2e_benchmark:   360/500
+2026-08-09 16:51:12,078 [INFO] e2e_benchmark:   380/500
+2026-08-09 16:51:12,322 [INFO] e2e_benchmark:   400/500
+2026-08-09 16:51:12,572 [INFO] e2e_benchmark:   420/500
+2026-08-09 16:51:12,821 [INFO] e2e_benchmark:   440/500
+2026-08-09 16:51:13,069 [INFO] e2e_benchmark:   460/500
+2026-08-09 16:51:13,312 [INFO] e2e_benchmark:   480/500
+2026-08-09 16:51:13,558 [INFO] e2e_benchmark:   500/500
+2026-08-09 16:51:13,567 [INFO] e2e_benchmark: PQC handshake (ML-KEM-768 + ML-DSA-65)...
+2026-08-09 16:51:13,946 [INFO] e2e_benchmark:   20/500
+2026-08-09 16:51:14,200 [INFO] e2e_benchmark:   40/500
+2026-08-09 16:51:14,447 [INFO] e2e_benchmark:   60/500
+2026-08-09 16:51:14,711 [INFO] e2e_benchmark:   80/500
+2026-08-09 16:51:14,969 [INFO] e2e_benchmark:   100/500
+2026-08-09 16:51:15,221 [INFO] e2e_benchmark:   120/500
+2026-08-09 16:51:15,470 [INFO] e2e_benchmark:   140/500
+2026-08-09 16:51:15,729 [INFO] e2e_benchmark:   160/500
+2026-08-09 16:51:15,991 [INFO] e2e_benchmark:   180/500
+2026-08-09 16:51:16,243 [INFO] e2e_benchmark:   200/500
+2026-08-09 16:51:16,492 [INFO] e2e_benchmark:   220/500
+2026-08-09 16:51:16,750 [INFO] e2e_benchmark:   240/500
+2026-08-09 16:51:17,024 [INFO] e2e_benchmark:   260/500
+2026-08-09 16:51:17,277 [INFO] e2e_benchmark:   280/500
+2026-08-09 16:51:17,533 [INFO] e2e_benchmark:   300/500
+2026-08-09 16:51:17,793 [INFO] e2e_benchmark:   320/500
+2026-08-09 16:51:18,054 [INFO] e2e_benchmark:   340/500
+2026-08-09 16:51:18,301 [INFO] e2e_benchmark:   360/500
+2026-08-09 16:51:18,557 [INFO] e2e_benchmark:   380/500
+2026-08-09 16:51:18,820 [INFO] e2e_benchmark:   400/500
+2026-08-09 16:51:19,078 [INFO] e2e_benchmark:   420/500
+2026-08-09 16:51:19,329 [INFO] e2e_benchmark:   440/500
+2026-08-09 16:51:19,581 [INFO] e2e_benchmark:   460/500
+2026-08-09 16:51:19,857 [INFO] e2e_benchmark:   480/500
+2026-08-09 16:51:20,141 [INFO] e2e_benchmark:   500/500
+2026-08-09 16:51:20,151 [INFO] e2e_benchmark: Saved: /home/kobiraj/Desktop/pqc_benchmark/results/e2e_benchmarks.json
+2026-08-09 16:51:20,151 [INFO] e2e_benchmark: Completed in 12.9s

@@ -1,0 +1,64 @@
+2026-08-09 19:54:42,984 [INFO] sidechannel: ============================================================
+2026-08-09 19:54:42,984 [INFO] sidechannel: SIDE-CHANNEL ANALYSIS
+2026-08-09 19:54:42,984 [INFO] sidechannel: ============================================================
+2026-08-09 19:54:42,984 [INFO] sidechannel: TEST 1: Decapsulation timing attack simulation — 5000 samples
+2026-08-09 19:54:43,073 [INFO] sidechannel:   200/5000
+2026-08-09 19:54:43,159 [INFO] sidechannel:   400/5000
+2026-08-09 19:54:43,257 [INFO] sidechannel:   600/5000
+2026-08-09 19:54:43,343 [INFO] sidechannel:   800/5000
+2026-08-09 19:54:43,446 [INFO] sidechannel:   1000/5000
+2026-08-09 19:54:43,542 [INFO] sidechannel:   1200/5000
+2026-08-09 19:54:43,643 [INFO] sidechannel:   1400/5000
+2026-08-09 19:54:43,757 [INFO] sidechannel:   1600/5000
+2026-08-09 19:54:43,851 [INFO] sidechannel:   1800/5000
+2026-08-09 19:54:43,922 [INFO] sidechannel:   2000/5000
+2026-08-09 19:54:43,992 [INFO] sidechannel:   2200/5000
+2026-08-09 19:54:44,076 [INFO] sidechannel:   2400/5000
+2026-08-09 19:54:44,167 [INFO] sidechannel:   2600/5000
+2026-08-09 19:54:44,252 [INFO] sidechannel:   2800/5000
+2026-08-09 19:54:44,338 [INFO] sidechannel:   3000/5000
+2026-08-09 19:54:44,421 [INFO] sidechannel:   3200/5000
+2026-08-09 19:54:44,504 [INFO] sidechannel:   3400/5000
+2026-08-09 19:54:44,589 [INFO] sidechannel:   3600/5000
+2026-08-09 19:54:44,684 [INFO] sidechannel:   3800/5000
+2026-08-09 19:54:44,770 [INFO] sidechannel:   4000/5000
+2026-08-09 19:54:44,847 [INFO] sidechannel:   4200/5000
+2026-08-09 19:54:44,933 [INFO] sidechannel:   4400/5000
+2026-08-09 19:54:45,017 [INFO] sidechannel:   4600/5000
+2026-08-09 19:54:45,113 [INFO] sidechannel:   4800/5000
+2026-08-09 19:54:45,210 [INFO] sidechannel:   5000/5000
+2026-08-09 19:54:45,238 [INFO] sidechannel:   PASS: Pearson |r| = 0.049402
+2026-08-09 19:54:45,239 [INFO] sidechannel: TEST 2: Memory forensics (in-place zeroization check)
+2026-08-09 19:54:45,267 [INFO] sidechannel:   Method: direct_address | Nonzero bytes remaining: False | PASS
+2026-08-09 19:54:45,267 [INFO] sidechannel: TEST 3: MITM simulation (clean isolation)
+2026-08-09 19:54:45,273 [INFO] sidechannel:   Attacker obtained shared secret: True | Victim blocked forged completion: True (ValueError)
+2026-08-09 19:54:45,274 [INFO] sidechannel: TEST 4: Nonce collision — 10000 nonces
+2026-08-09 19:54:45,287 [INFO] sidechannel:   10000/10000 unique | P(collision)=6.310e-22
+2026-08-09 19:54:45,290 [INFO] sidechannel: TEST 5: Timing consistency across variants — 3000 samples each
+2026-08-09 19:55:01,928 [INFO] sidechannel:   ML-KEM-512: KeyGen CV=64.31%, Encap CV=52.12%
+2026-08-09 19:55:18,595 [INFO] sidechannel:   ML-KEM-768: KeyGen CV=44.42%, Encap CV=60.92%
+2026-08-09 19:55:35,286 [INFO] sidechannel:   ML-KEM-1024: KeyGen CV=37.43%, Encap CV=25.76%
+2026-08-09 19:55:35,287 [INFO] sidechannel: TEST 6: TVLA fixed-vs-random — 5000 samples per group
+2026-08-09 19:55:35,429 [INFO] sidechannel:   500/10000
+2026-08-09 19:55:35,565 [INFO] sidechannel:   1000/10000
+2026-08-09 19:55:35,705 [INFO] sidechannel:   1500/10000
+2026-08-09 19:55:35,835 [INFO] sidechannel:   2000/10000
+2026-08-09 19:55:35,950 [INFO] sidechannel:   2500/10000
+2026-08-09 19:55:36,074 [INFO] sidechannel:   3000/10000
+2026-08-09 19:55:36,210 [INFO] sidechannel:   3500/10000
+2026-08-09 19:55:36,346 [INFO] sidechannel:   4000/10000
+2026-08-09 19:55:36,483 [INFO] sidechannel:   4500/10000
+2026-08-09 19:55:36,623 [INFO] sidechannel:   5000/10000
+2026-08-09 19:55:36,759 [INFO] sidechannel:   5500/10000
+2026-08-09 19:55:36,879 [INFO] sidechannel:   6000/10000
+2026-08-09 19:55:36,994 [INFO] sidechannel:   6500/10000
+2026-08-09 19:55:37,124 [INFO] sidechannel:   7000/10000
+2026-08-09 19:55:37,261 [INFO] sidechannel:   7500/10000
+2026-08-09 19:55:37,398 [INFO] sidechannel:   8000/10000
+2026-08-09 19:55:37,538 [INFO] sidechannel:   8500/10000
+2026-08-09 19:55:37,676 [INFO] sidechannel:   9000/10000
+2026-08-09 19:55:37,810 [INFO] sidechannel:   9500/10000
+2026-08-09 19:55:37,925 [INFO] sidechannel:   10000/10000
+2026-08-09 19:55:37,960 [INFO] sidechannel:   t-statistic = -3.177 | PASS
+2026-08-09 19:55:37,963 [INFO] sidechannel: 
+5/6 tests passed.

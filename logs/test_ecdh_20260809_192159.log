@@ -1,0 +1,6 @@
+2026-08-09 19:21:59,851 [INFO] test_ecdh: === Integration Test: ECDH Baseline ===
+2026-08-09 19:21:59,853 [INFO] test_ecdh: KeyGen ✓ | 0.250 ms | 32 bytes
+2026-08-09 19:21:59,854 [INFO] test_ecdh: Exchange ✓ | 0.582 ms
+2026-08-09 19:21:59,855 [INFO] test_ecdh: Sign ✓ | 0.738 ms
+2026-08-09 19:21:59,856 [INFO] test_ecdh: Verify ✓ | 0.339 ms
+2026-08-09 19:21:59,856 [INFO] test_ecdh: === ECDH BASELINE ALL PASSED ✓ ===
