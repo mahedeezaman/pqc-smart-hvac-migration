@@ -111,7 +111,8 @@ python3 run.py output plots
 python3 run.py output tables
 ```
 
-The complete execution sequence, including CPU frequency configuration, is also documented in `HowToRun.txt`.
+The complete execution sequence, including CPU frequency configuration, is documented in `HowToRun.txt`.
+
 
 ## 6. Experimental Data
 
