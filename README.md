@@ -143,7 +143,7 @@ The included JSON and CSV files preserve the experimental results reported in th
 
 Copyright (c) 2026 Mahedee Zaman Moon.
 
-This project is licensed under the MIT License. You are free to use, modify, distribute, and commercially use this software, subject to the terms and conditions of the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. You are free to use, modify, distribute, and commercially use this software, subject to the terms and conditions of the MIT License. See the [https://github.com/mahedeezaman/pqc-smart-hvac-migration/blob/main/LICENSE.txt](LICENSE) file for details.
 
 ## Academic Citation
 
